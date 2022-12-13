@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="text">
+        <item name="android:textColor"> @color/text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColorHint">@color/text</item>
+        <item name="fontFamily">@font/montserrat_light</item>
+    </style>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".zadanie2Activity"
+    android:background="@drawable/group_149">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="460dp"
+        android:background="@drawable/zakruglenie"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:gravity="center_horizontal"
+            android:text="Регистрация"
+            android:textStyle="bold"
+            android:textColor="@color/text"
+            android:textSize="28dp" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_marginTop="20dp"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            style="@style/text"
+            android:text="Имя пользоателя"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextEmailAddress3"
+            android:layout_marginTop="10dp"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            style="@style/text"
+            android:inputType="textEmailAddress"
+            android:text="E-mail"/>
+
+        <EditText
+            android:id="@+id/editTextTextPassword1"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_light"
+            android:hint="Пароль"
+            android:inputType="textPassword"
+            style="@style/text" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Повторите пароль"
+            style="@style/text"
+             />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:text="Зарегистрироваться"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:background="@drawable/cnopka_regist"
+            android:fontFamily="@font/montserrat_light"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textAllCaps="false"
+            />
+
+
+
+
+    </LinearLayout>
+
+   <!-- <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/thumb"
+        app:track="@drawable/track"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" /> -->
+</androidx.constraintlayout.widget.ConstraintLayout>
